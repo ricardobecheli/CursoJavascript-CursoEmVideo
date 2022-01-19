@@ -5,3 +5,22 @@ body {
 
     /* This is how to make COMMENTS in CSS. (Just like multiple lines in JS) */
 }
+
+code {
+    background-color: rgb(172, 253, 226);
+}
+
+.first-code {
+    border-width: thick;
+            border-style: solid;
+            border-color: aqua;
+            padding: 100pt;
+            padding-top: 25pt;
+            padding-bottom: 25pt;
+            margin-bottom: 20pt;
+            margin-top: 10pt;
+            margin-left: 200pt;
+            margin-right: 200pt;
+            background-color: darkcyan;
+            color: rgb(255, 255, 255);
+}

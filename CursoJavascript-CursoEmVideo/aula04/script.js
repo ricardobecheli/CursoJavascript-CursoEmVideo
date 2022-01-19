@@ -24,14 +24,26 @@ window.alert("A soma dos valores é " + s)
 
                 Number.parseInt
 
-                for JS stop concatenating the 2 numbers instead of summing them.
-                For floating point (a number with decimals) it should be:
+                    For JS stop concatenating the 2 numbers instead of summing them.
+                    (i.e. returning 42 instead of 6 for "4 + 2" is concatenating)
+
+                    This command returns an integer number (= no decimals)
+
+                Or...
+
+                    For floating point (real number = a number with decimals) it should be:
 
                 Number.parseFloat.
 
-                Note the capital letters because they make a difference!
+                    Note the capital letters because they make a difference!
 
-            var n2 = Number.parseInt(window.prompt("Digite outro número"))
-            var s = n1 + n2
-            window.alert("A soma dos valores é " + s)
+            EVEN BETTER:
+
+                    You can also force JS stop concatenating instead of summing by the command:
+
+                Number(n)
+
+                    And JavaScript will decide if it's an integer or a real number.
+
             */
+
