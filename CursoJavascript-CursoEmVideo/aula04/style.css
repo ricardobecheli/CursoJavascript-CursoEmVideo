@@ -1,6 +1,6 @@
 body {
     background-color: rgb(105, 253, 172);
-    font: normal 25pt arial;
+    font: normal 16pt arial;
     color: rgb(6, 124, 124);
     margin-left: 77px;
     margin-right: 30px;
@@ -26,13 +26,13 @@ code {
     border-width: thick;
             border-style: solid;
             border-color: aqua;
-            padding: 100pt;
+            padding: 5 0pt;
             padding-top: 25pt;
             padding-bottom: 25pt;
             margin-bottom: 20pt;
             margin-top: 10pt;
-            margin-left: 200pt;
-            margin-right: 200pt;
+            margin-left: 100pt;
+            margin-right: 100pt;
             background-color: darkcyan;
             color: rgb(255, 255, 255);
 }
