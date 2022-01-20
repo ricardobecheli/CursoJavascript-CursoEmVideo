@@ -18,7 +18,7 @@ window.alert("It's a great pleasure to meet you, " + nome + "!")
 var n1 = Number.parseInt(window.prompt("Digite um número: ")) // SEE COMMENT BELOW
 var n2 = Number.parseInt(window.prompt("Digite outro número: "))
 var s = n1 + n2
-window.alert("A soma dos valores é " + s)
+window.alert(`A soma de ${n1} e ${n2} é ${s}`) // Concatenação agora atualizada para o modo Template literals (Template strings).
 
             /* Must put:
 
@@ -46,4 +46,6 @@ window.alert("A soma dos valores é " + s)
                     And JavaScript will decide if it's an integer or a real number.
 
             */
+
+
 
