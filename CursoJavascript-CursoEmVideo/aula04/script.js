@@ -49,3 +49,12 @@ window.alert(`A soma de ${n1} e ${n2} é ${s}`) // Concatenação agora atualiza
 
 
 
+                    function calcular
+                    {
+                        var txtv = window.document.querySelector('input#txtvel')
+                        var res = window.document.querySelector('div#res')
+                        var vel = Number(txtv.value)
+                        res.innerHTML = "Your current speed is ${vel} Km/h."
+                    }
+    /* A abertura da chave da função aparece no console como erro!*/
+    
