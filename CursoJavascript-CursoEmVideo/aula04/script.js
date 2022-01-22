@@ -3,17 +3,17 @@
 
 var nome = window.prompt("What's your name?")
 window.alert("It's a great pleasure to meet you, " + nome + "!")
-            // The + (plus) signal produces concatenation.
+    // The + (plus) signal produces concatenation.
 
-            //  Double slash is for a one line comment in JS. We are IN JS as everything between the "script" opening and closing tags is JS.
+    //  Double slash is for a one line comment in JS. We are IN JS as everything between the "script" opening and losing tags is JS.
 
-            /*
-                Slash + asterisk is to OPEN a comment od more than one line in JS.
+    /*
+        Slash + asterisk is to OPEN a comment od more than one line in JS.
 
-                Asterisk + slash is to close the multiple line comment.
+        Asterisk + slash is to close the multiple line comment.
 
-                Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason.
-            */
+        Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason.
+    */
 
 var n1 = Number.parseInt(window.prompt("Digite um número: ")) // SEE COMMENT BELOW
 var n2 = Number.parseInt(window.prompt("Digite outro número: "))
@@ -49,16 +49,28 @@ window.alert(`A soma de ${n1} e ${n2} é ${s}`) // Concatenação agora atualiza
 
 
 
-                    function calcular()
-                    {
-                        var txtv = window.document.querySelector('input#txtvel')
-                        var res = window.document.querySelector('div#res')
-                        var vel = Number(txtv.value)
-                        res.innerHTML = `<p>Your current speed is <strong> ${vel}  Km/h </strong>.</p>`
-                        if (vel > 60) {
-                            res.innerHTML += `<p>You've just received a <strong>speeding ticket</strong>.`
-                        }
-                        res.innerHTML += `<p>Always use safety belt.</p>`
-                    }
+function calcular()
+    {
+        var txtv = window.document.querySelector('input#txtvel')
+        var res = window.document.querySelector('div#res')
+        var vel = Number(txtv.value)
+        res.innerHTML = `<p>Your current speed is <strong> ${vel}  Km/h </strong>.</p>`
+        if (vel > 60) {
+            res.innerHTML += `<p>You've just received a <strong>speeding ticket</strong>.`
+            }
+        res.innerHTML += `<p>Always wear a seat belt.</p>`
+    }
+
+    function computaridade()
+    {
+        var idadeval = window.document.querySelector('input#idadevalor')
+        var aging = window.document.querySelector('div#aging')
+        var years = Number(idadeval.value)
+        aging.innerHTML = `<p>Your age is <strong> ${years}  old </strong>.</p>`
+        if (years > 40) {
+            aging.innerHTML += `<p>You're <strong>fired!</strong>.`
+            }
+            aging.innerHTML += `<p>Always have a savings account.</p>`
+    }                    
     
     
