@@ -69,8 +69,27 @@ function calcular()
         aging.innerHTML = `<p>Your age is <strong> ${years}  old </strong>.</p>`
         if (years > 40) {
             aging.innerHTML += `<p>You're <strong>fired!</strong>.`
-            }
             aging.innerHTML += `<p>Always have a savings account.</p>`
+            }
+        else {
+            aging.innerHTML += `<p> ${years} They're still hiring but "your time is gonna come" (Led Zeppelin)</strong>.`
+        }
     }                    
     
     
+    function eukvcl()
+    {
+        var fingerval = window.document.querySelector('input#parouimpar')
+        var dispute = window.document.querySelector('div#dispute')
+        var oddeven = Number(fingerval.value)
+        dispute.innerHTML = `<p>The result is <strong> ${oddeven}</strong>.</p>`
+        if (oddeven % 2 == 0) {
+            dispute.innerHTML += `<p>And this number is <strong>even!</strong>`
+            }
+        else {
+            dispute.innerHTML += `<p>And this number is <strong>odd!</strong>`
+        }
+
+            dispute.innerHTML += `<p>Be a clean player. Always keep your fingers clean.</p>`
+            
+    }                    
