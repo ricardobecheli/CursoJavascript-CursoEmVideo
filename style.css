@@ -26,6 +26,7 @@ code {
     border-width: thick;
             border-style: solid;
             border-color: aqua;
+            border-radius: 20px;
             padding: 5 0pt;
             padding-top: 25pt;
             padding-bottom: 25pt;
