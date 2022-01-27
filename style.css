@@ -23,7 +23,7 @@ code {
 }
 
 .first-code {
-    border-width: thick;
+            border-width: thick;
             border-style: solid;
             border-color: aqua;
             border-radius: 20px;
@@ -32,8 +32,8 @@ code {
             padding-bottom: 25pt;
             margin-bottom: 20pt;
             margin-top: 10pt;
-            margin-left: 100pt;
-            margin-right: 100pt;
+            margin-left: 100%;
+            margin-right: 100%;
             background-color: rgb(3, 134, 241);
             color: rgb(255, 255, 255);
 }
