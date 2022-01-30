@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(250, 151, 2);
+    
+    background-image: url("images/arches.png");
+    background-color: #fc7f2bc2;
+    
     font: normal 16pt arial;
     color: rgb(6, 124, 124);
     margin-left: 77px;
@@ -9,9 +12,11 @@ body {
 }
 
 h1 {
-    background-color: rgb(3, 134, 241);
+    
+    background-color: rgba(0, 60, 255, 0.445);
     color: floralwhite;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 50px;
 }
 
 p {
@@ -34,7 +39,7 @@ code {
             margin-top: 10pt;
             margin-left: 1%;
             margin-right: 1%;
-            background-color: rgb(3, 134, 241);
+            background-color: rgba(3, 134, 241, 0.493);
             color: rgb(255, 255, 255);
 }
 
