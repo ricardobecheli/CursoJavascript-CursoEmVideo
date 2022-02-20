@@ -28,7 +28,7 @@ code {
 }
 
 .first-code {
-            border-width: thick;
+            border-width: 3px;
             border-style: solid;
             border-color: aqua;
             border-radius: 20px;
