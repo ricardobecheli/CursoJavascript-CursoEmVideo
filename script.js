@@ -15,10 +15,10 @@ window.alert("It's a great pleasure to meet you, " + nome + "!")
         Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason.
     */
 
-var n1 = Number.parseInt(window.prompt("Digite um número: ")) // SEE COMMENT BELOW
-var n2 = Number.parseInt(window.prompt("Digite outro número: "))
-var s = n1 + n2
-window.alert(`A soma de ${n1} e ${n2} é ${s}`) // Concatenação agora atualizada para o modo Template literals (Template strings).
+var n1 = Number.parseInt(window.prompt("Type a number: ")) // SEE COMMENT BELOW
+var n2 = Number.parseInt(window.prompt("Type another number: "))
+var s = n1 * n2
+window.alert(`${n1} multiplied by ${n2} is ${s}` + ", " + nome) // Concatenação agora atualizada para o modo Template literals (Template strings).
 
             /* Must put:
 
