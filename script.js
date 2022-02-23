@@ -92,4 +92,22 @@ function calcular()
 
             dispute.innerHTML += `<p>Be a clean player. Always keep your fingers clean.</p>`
             
-    }                    
+    }
+    function direction()
+    {
+        var typed = window.document.querySelector('input#palindrome')
+        var palresult = window.document.querySelector('div#palresult')
+        var palornot = String(typed.value)
+        palresult.innerHTML = `<p>The result is <strong> ${palornot}</strong>.</p>`
+        var revertedWord = palornot.split("").reverse().join("");
+
+        if (palornot == revertedWord) {
+            palresult.innerHTML += `<p>Yes! You really typed a <strong>palindrome!</strong>`
+            }
+        else {
+            palresult.innerHTML += `<p>No... this is not a <strong>palindrome</strong>.`
+        }
+
+            palresult.innerHTML += `<p>Was it a car or a cat I saw?</p>`
+            
+    }                      
