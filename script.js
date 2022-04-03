@@ -1,8 +1,8 @@
             // window.alert("Click OK to continue"). Tiramos esse comando de uso. Foi só pra aula 1.
             // window.confirm("How do you like JS?"). Tiramos esse comando de uso. Foi só pra aula 1.
 
-var nome = window.prompt("What's your name?")
-window.alert("It's a great pleasure to meet you, " + nome + "!")
+// var nome = window.prompt("What's your name?")
+// window.alert("It's a great pleasure to meet you, " + nome + "!")
     // The + (plus) signal produces concatenation.
 
     //  Double slash is for a one line comment in JS. We are IN JS as everything between the "script" opening and losing tags is JS.
@@ -15,10 +15,10 @@ window.alert("It's a great pleasure to meet you, " + nome + "!")
         Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason.
     */
 
-var n1 = Number.parseInt(window.prompt("Type a number: ")) // SEE COMMENT BELOW
-var n2 = Number.parseInt(window.prompt("Type another number: "))
-var s = n1 * n2
-window.alert(`${n1} multiplied by ${n2} is ${s}` + ", " + nome) // Concatenação agora atualizada para o modo Template literals (Template strings).
+// var n1 = Number.parseInt(window.prompt("Type a number: ")) // SEE COMMENT BELOW
+// var n2 = Number.parseInt(window.prompt("Type another number: "))
+// var s = n1 * n2
+// window.alert(`${n1} multiplied by ${n2} is ${s}` + ", " + nome) // Concatenação agora atualizada para o modo Template literals (Template strings).
 
             /* Must put:
 
@@ -98,7 +98,7 @@ function calcular()
         var typed = window.document.querySelector('input#palindrome')
         var palresult = window.document.querySelector('div#palresult')
         var palornot = String(typed.value)
-        palresult.innerHTML = `<p>The result is <strong> ${palornot}</strong>.</p>`
+        palresult.innerHTML = `<p>The result is <strong> ${revertedWord = palornot.split("").reverse().join("")}</strong>.</p>`
         var revertedWord = palornot.split("").reverse().join("");
 
         if (palornot == revertedWord) {
