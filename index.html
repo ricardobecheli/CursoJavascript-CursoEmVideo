@@ -1,200 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Programa</title>
+    <link rel="shortcut icon" href="images/favicon-html-css.png" type="image/x-icon">
+    <title>My JavaScript Lessons</title>
     <link rel="stylesheet" href="style.css">
-    
-    
 </head>
+
 <body>
-    <h1>Hello, world!</h1>
 
-    <article class="pause">
-        <p>Hello world accomplished and so was the first lesson but I decided to</p>
-        
-        <p><strong>pause</strong></p>
-        
-        <p>this JavaScript course</p>
-        
-        <p>while I'm doing two HTML/CSS courses (Curso em Vídeo and Rocketseat).</p>
-        
-        <p>JavaScript will be re-started May 20th.</p>
-        
-        <p><em>Ricardo Barros Becheli, February 20, 2022</em>.</p>
+
+
+    
+    
+    <header>
+        <h1 class="hello">Hello, world!</h1>
+        <p>
+            This is Ricardo Barros Becheli's copybook with exercices and remarks about the <strong>JavaScript</strong> course from <a href="http://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="noopener noreferrer">"Curso em Vídeo"</a> .
+        </p>
+
+        <p class="hello">
+
+            <a href="mailto:ricardobarrosbecheli@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+            <a href="https://www.linkedin.com/in/ricardo-becheli-36843659/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+            
+            <a href="http://github.com/ricardobecheli" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+
+        </p>
+
+    </header>
+    
+
+<main>
+    
+        <article class="pause" style="margin-bottom: 2em;">
+            <p>Hello world accomplished and so was the first lesson but I decided to pause
+                this JavaScript course while I'm doing two HTML/CSS courses (Curso em Vídeo and Rocketseat). JavaScript will be re-started May 20th. <br>
+                Ricardo Barros Becheli, February 20, 2022.
+            </p>
+        </article>
+    
+        <article class="pause">
+            <p>
+            Today I decided to come back to JS because I'm almost  reaching the "main 20%" knowledge of CSS and the conbined date to deploy the first JS code in my HTML/CSS/JS Github repo website project is near.
+            <br>
+            Ricardo Barros Becheli, May 3, 2022.
+            </p>
+        </article>
+    
+    
+        <h2>What next? What will we do now?</h2>
+    
+        <article class="pause">
+            <p>
+                Well, I'll review all the videos from 7 to 12, where I stopped back in February.
+            </p>
+        </article>
+    
+    
+        <h1>In the first JS coding lessons we have made this:</h1>
+    
+        <p>All the frame content is in the code.</p>
+    
+    <div class="first-code">
+    
+    
+        <p>Double slash // means "ONE LINE COMMENT".</p>
+        <p>And /* to open and */ to close mean "SEVERAL LINES COMMENT".</p>
+    
+        <p>
+            // window.alert("Click OK to continue"). Tiramos esse comando de uso. Foi só pra aula 1.
+        </p>
+        <p>
+            // window.confirm("How do you like JS?"). Tiramos esse comando de uso. Foi só pra aula 1.
+        </p>
+    
+        <p style="color: darkgreen;"><code>var nome = window.prompt("What's your name?")</code></p>
+        <p style="color: darkgreen;"><code>window.alert("It's a great pleasure to meet you, " + nome + "!")</code></p>
+            <p>// The + (plus) signal produces concatenation.</p>
+    
+          <p> //  Double slash is for a one line comment in JS. We are IN JS as everything between the "script" opening and closing tags is JS.</p>
+    
+           <p>/* <br>
+                Repeating: Slash + asterisk is to OPEN a comment of more than one line in JS. <br>
+    
+                Asterisk + slash is to close the multiple line comment. <br>
+    
+                Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason. <br>
+            */
+            </p>
+    
+            <p style="color: darkgreen;"><code>var n1 = Number.parseInt(window.prompt("Digite um número: "))</code>  // SEE COMMENT BELOW</p>
+            <p style="color: darkgreen;"><code>var n2 = Number.parseInt(window.prompt("Digite outro número: "))</code></p>
+            <p style="color: darkgreen;"><code>var s = n1 + n2</code></p>
+            <p style="color: darkgreen;"><code>window.alert("A soma dos valores é " + s)</code></p>
+    
+            <p>/* Must put:</p>
+    
+            <p>Number.parseInt</p>
+    
+            <p>For JS stop concatenating the 2 numbers instead of summing them.
+                    (i.e. returning 42 instead of 6 for "4 + 2" is concatenating)</p>
+    
+            <p>This command returns an integer number (= no decimals)</p>
+    
+            <p>Or...</p>
+    
+            <p>For floating point (floating point = real number = a number with decimals) it should be:</p>
+    
+            <p>Number.parseFloat.</p>
+    
+            <p>Note the capital letters because they make a difference!</p>
+    
+            <p>EVEN BETTER:</p>
+    
+            <p>You can also force JS stop concatenating instead of summing by the following command:</p>
+    
+            <p style="color: darkgreen;"><code>var n1 = Number(window... etc... as coded above - or whatever you want to be contained in your variable and fits here)</code></p>
+    
+            <p>And JavaScript will decide if "Number" is an integer or a real number.</p>
+    
+            <p>*/</p>
+    
+            <figure>
+                <img src="images/grip-the-code.jpg" alt="code locked bike">
+                <figcaption style="font-size: xx-large; color: blue; margin: 20px;">
+                    <span style="background-color: rgba(127, 255, 212, 0.356); background-image: url(images/arches.png) ; padding: 15px;"><strong>Grip the code!</strong></span>
+                </figcaption>
+            </figure>
+    
+    </div>
+    
+    <h1>More transformations</h1>
+    
+    <h2>The JS commands:</h2>
+    <p><code>String(n)</code></p>
+    <p>Or</p>
+    <p><code>n.toString()</code></p>
+    <p> <strong>Make whatever is "n" into a string.</strong></p>
+    <p>Thus, the code to return the result of the given numbers as a string would be:</p>
+    <p><code>window.alert("A soma dos valores é " + String(s))</code></p>
+    <p>Or...</p>
+    <p><code>window.alert("A soma dos valores é " + n.toString(s)</code></p>
+    <p>The "s" above is the variable that contais the sum. Check the frame above or the code itself.</p>
+    <h2>So, depending on what you code...</h2>
+    <P>A "string" + a "string" JS uses the plus sign to CONCATENATE.</P>
+    <p>And</p>
+    <p>A "number" + a "number" JS uses the plus sign to SUM.</p>
+    <h2>Some exercices in the terminal.</h2>
+    <p>Concatenation and sum. (= quoted text x unquoted numbers)</p>
+    
+    <h3>Another way of making the same concatenation of text and variables is through</h3>
+    <h3>Template literals (Template strings)</h3>
+    <p>Synonyms:</p>
+    
+        <ul>
+        <li>Template Literals</li>
+        <li>Template Strings</li>
+        <li>String Templates</li>
+        <li>Back-Tics Syntax</li>
+        </ul>
+    
+    <p>Template strings will be used in this course to interpolate. JavaScript string interpolation is the process of embedding an expression into part of a string. Plain text and JS variables together in the same paragraph, for instance.</p>
+    
+    <a href="https://www.w3schools.com/js/js_string_templates.asp" target="blank" rel="noopener noreferrer">Please ckeck w3schools for details</a>
+    
+    <br>
+    <h1>Variables.</h1>
+    <p>So it's widely sayd that "variables are containers for storing values" (w3schools).</p>
+    <p>Therefore</p>
+    <h2>Aren't variables tiny databanks?</h2>
+    
+    <p>To be or not? The question is that.</p>
+    <p>And the informal answer given by myself (at least at this point of study) is <strong>YES!</strong></p>
+    <p>Think about that when you go into real data bases, banks or lakes. The data is calmly laying there. Until one fine day when you invoke them and they rise from the tomb.</p>
+    
+    <article class="morecode">
+        <h1>More code 1</h1>
+        <h2>Speeding Ticket System</h2>
+    
+         <p>
+             Car speed: <input type="number" name="txtvel" id="txtvel"> Km/h.
+             <input type="button" value="Check if higher than 60 Km/h" onclick="calcular()">
+        </p>
+        <div id= "res"> </div>
+    
+    
+    
+        <h1>More code 2</h1>
+        <h2>Age check</h2>
+    
+        <p>
+            Age: <input type="number" name="idadevalor" id="idadevalor"> anos.
+            <input type="button" value="Check if older than 40 anos" onclick="computaridade()">
+        </p>
+        <div id= "aging"> </div>
+    
+    
+    
+    
+        <h1>More code 3</h1>
+        <h2>Let's play evens or odds</h2>
+    
+        <p>
+            Game result: <input type="number" name="parouimpar" id="parouimpar"> fingers.
+            <input type="button" value="Check if even or odd" onclick="eukvcl()">
+        </p>
+        <div id= "dispute"> </div>
+    
+    
+    
+        <h1>More code 4</h1>
+        <h2>"Never odd or eveN" (wow!): Is this a palindrome? Check for yourself.</h2>
+    
+        <p>
+            Type here: <input type="text" name="palindrome" id="palindrome">.
+            <input type="button" value  ="Check if this is a palindrome" onclick="direction()">
+        </p>
+        <div id= "palresult"> </div>
+    
     </article>
-
-
-    <h2>What next? What will we do now?</h2>
-    
-
-
-    <h1>In the first JS coding lessons we have made this:</h1>
-
-    <p>All the frame content is in the code.</p>
-
-<div class="first-code">
-
-    
-    <p>Double slash // means "ONE LINE COMMENT".</p>
-    <p>And /* to open and */ to close mean "SEVERAL LINES COMMENT".</p>
-    
-    <p>
-        // window.alert("Click OK to continue"). Tiramos esse comando de uso. Foi só pra aula 1.
-    </p>
-    <p>
-        // window.confirm("How do you like JS?"). Tiramos esse comando de uso. Foi só pra aula 1.
-    </p>    
-
-    <p style="color: darkgreen;"><code>var nome = window.prompt("What's your name?")</code></p>
-    <p style="color: darkgreen;"><code>window.alert("It's a great pleasure to meet you, " + nome + "!")</code></p>
-        <p>// The + (plus) signal produces concatenation.</p> 
-
-      <p> //  Double slash is for a one line comment in JS. We are IN JS as everything between the "script" opening and closing tags is JS.</p> 
-
-       <p>/* <br>
-            Repeating: Slash + asterisk is to OPEN a comment of more than one line in JS. <br>
-
-            Asterisk + slash is to close the multiple line comment. <br>
-
-            Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason. <br>
-        */
-        </p> 
-
-        <p style="color: darkgreen;"><code>var n1 = Number.parseInt(window.prompt("Digite um número: "))</code>  // SEE COMMENT BELOW</p>
-        <p style="color: darkgreen;"><code>var n2 = Number.parseInt(window.prompt("Digite outro número: "))</code></p>
-        <p style="color: darkgreen;"><code>var s = n1 + n2</code></p>
-        <p style="color: darkgreen;"><code>window.alert("A soma dos valores é " + s)</code></p>
-
-        <p>/* Must put:</p>
-
-        <p>Number.parseInt</p>
-
-        <p>For JS stop concatenating the 2 numbers instead of summing them.
-                (i.e. returning 42 instead of 6 for "4 + 2" is concatenating)</p>   
-
-        <p>This command returns an integer number (= no decimals)</p>        
-
-        <p>Or...</p>        
-
-        <p>For floating point (floating point = real number = a number with decimals) it should be:</p>            
-
-        <p>Number.parseFloat.</p>        
-
-        <p>Note the capital letters because they make a difference!</p>            
-
-        <p>EVEN BETTER:</p>   
-
-        <p>You can also force JS stop concatenating instead of summing by the following command:</p>            
-
-        <p style="color: darkgreen;"><code>var n1 = Number(window... etc... as coded above - or whatever you want to be contained in your variable and fits here)</code></p>        
-
-        <p>And JavaScript will decide if "Number" is an integer or a real number.</p>          
-
-        <p>*/</p> 
-        
-        <figure>
-            <img src="images/grip-the-code.jpg" alt="code locked bike">
-            <figcaption style="font-size: xx-large; color: blue; margin: 20px;">
-                <span style="background-color: rgba(127, 255, 212, 0.356); background-image: url(images/arches.png) ; padding: 15px;"><strong>Grip the code!</strong></span>
-            </figcaption>
-        </figure>
-
-</div>
-
-<h1>More transformations</h1>
-
-<h2>The JS commands:</h2>
-<p><code>String(n)</code></p>
-<p>Or</p>
-<p><code>n.toString()</code></p>
-<p> <strong>Make whatever is "n" into a string.</strong></p>
-<p>Thus, the code to return the result of the given numbers as a string would be:</p>
-<p><code>window.alert("A soma dos valores é " + String(s))</code></p>
-<p>Or...</p>
-<p><code>window.alert("A soma dos valores é " + n.toString(s)</code></p>
-<p>The "s" above is the variable that contais the sum. Check the frame above or the code itself.</p>
-<h2>So, depending on what you code...</h2>
-<P>A "string" + a "string" JS uses the plus sign to CONCATENATE.</P>
-<p>And</p>
-<p>A "number" + a "number" JS uses the plus sign to SUM.</p>
-<h2>Some exercices in the terminal.</h2>
-<p>Concatenation and sum. (= quoted text x unquoted numbers)</p>
-
-<h3>Another way of making the same concatenation of text and variables is through</h3>
-<h3>Template literals (Template strings)</h3>
-<p>Synonyms:</p>
-
-    <ul>
-    <li>Template Literals</li> 
-    <li>Template Strings</li> 
-    <li>String Templates</li>
-    <li>Back-Tics Syntax</li> 
-    </ul>
-
-<p>Template strings will be used in this course to interpolate. JavaScript string interpolation is the process of embedding an expression into part of a string. Plain text and JS variables together in the same paragraph, for instance.</p>
-    
-<a href="https://www.w3schools.com/js/js_string_templates.asp" target="blank" rel="noopener noreferrer">Please ckeck w3schools for details</a>
-
-<br>
-<h1>Variables.</h1>
-<p>So it's widely sayd that "variables are containers for storing values" (w3schools).</p>
-<p>Therefore</p>
-<h2>Aren't variables tiny databanks?</h2>
-
-<p>To be or not? The question is that.</p>
-<p>And the informal answer given by myself (at least at this point of study) is <strong>YES!</strong></p>
-<p>Think about that when you go into real data bases, banks or lakes. The data is calmly laying there. Until one fine day when you invoke them and they rise from the tomb.</p>
-
-<article class="morecode">
-    <h1>More code 1</h1>
-    <h2>Speeding Ticket System</h2>
-    
-     <p>
-         Car speed: <input type="number" name="txtvel" id="txtvel"> Km/h.
-         <input type="button" value="Check if higher than 60 Km/h" onclick="calcular()">
-    </p>
-    <div id= "res"> </div>
     
     
-    
-    <h1>More code 2</h1>
-    <h2>Age check</h2>
-    
-    <p>
-        Age: <input type="number" name="idadevalor" id="idadevalor"> anos.
-        <input type="button" value="Check if older than 40 anos" onclick="computaridade()">
-    </p>
-    <div id= "aging"> </div>
-    
-    
-    
-    
-    <h1>More code 3</h1>
-    <h2>Let's play evens or odds</h2>
-    
-    <p>
-        Game result: <input type="number" name="parouimpar" id="parouimpar"> fingers.
-        <input type="button" value="Check if even or odd" onclick="eukvcl()">
-    </p>
-    <div id= "dispute"> </div>
-    
-    
-    
-    <h1>More code 4</h1>
-    <h2>"Never odd or eveN" (wow!): Is this a palindrome? Check for yourself.</h2>
-    
-    <p>
-        Type here: <input type="text" name="palindrome" id="palindrome">.
-        <input type="button" value  ="Check if this is a palindrome" onclick="direction()">
-    </p>
-    <div id= "palresult"> </div>
-
-</article>
-
-
+</main>
 
 
 <script src="script.js"></script>    

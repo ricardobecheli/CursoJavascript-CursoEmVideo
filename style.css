@@ -1,27 +1,41 @@
+
 body {
-    
     background-image: url("images/arches.png");
     background-color: #fc7f2bc2;
-    
     font: normal 16pt arial;
     color: rgb(6, 124, 124);
-    margin-left: 77px;
-    margin-right: 30px;
+    margin: 0%;
 
     /* This is how to make COMMENTS in CSS. (Just like multiple lines in JS) */
 }
 
-h1 {
+.hello {
     
-    background-color: rgba(0, 60, 255, 0.445);
+    background-color: rgb(201, 120, 255);
     color: floralwhite;
+    width: fit-content;
     padding: 20px;
     border-radius: 50px;
+    margin: auto;
+    
+}
+
+header {
+    margin: 0px 0px 3em 0px;
+    padding: 1%;
+    background-color: rgba(255, 250, 240, 0.199);
+    box-shadow: -13px 13px 20px 5px rgba(0, 0, 0, 0.726);
+    text-align: center;
+}
+
+main {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .pause {
-    text-align: center;
-    box-shadow: 3px 3px 30px 10px black;
+    text-align: start;
+    box-shadow: -13px 13px 20px 5px rgba(0, 0, 0, 0.726);
     padding: 30px;
     font-size: 1.2em;
 }
