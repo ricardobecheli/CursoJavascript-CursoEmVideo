@@ -78,6 +78,14 @@ p {
     text-indent: 1em;
 }
 
+.flex1 > p > a {
+    font-size: 0.8em;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+
 
 p {
     margin-left: 1em;
