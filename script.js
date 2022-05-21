@@ -68,7 +68,7 @@ function calcular()
         var idadeval = window.document.querySelector('input#idadevalor')
         var aging = window.document.querySelector('div#aging')
         var years = Number(idadeval.value)
-        aging.innerHTML = `<p>Your age is <strong> ${years}  old </strong>.</p>`
+        aging.innerHTML = `<p>Your age is <strong> ${years} years old </strong>.</p>`
         if (years > 40) {
             aging.innerHTML += `<p>You're <strong>fired!</strong>.`
             aging.innerHTML += `<p>Always have a savings account.</p>`
