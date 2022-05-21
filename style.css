@@ -44,6 +44,13 @@ h2 {
     color: rgb(130, 18, 235);
 }
 
+.first-code h2 {
+    background-color: blue;
+    color: white;
+    font-family: monospace;
+    margin: 1em auto;
+}
+
 p {
     margin-left: 50px;
 }
@@ -84,9 +91,6 @@ p {
     text-decoration: none;
 }
 
-
-
-
 p {
     margin-left: 1em;
 }
@@ -110,6 +114,14 @@ code {
             color: rgb(255, 255, 255);
 }
 
+.first-code img {
+    margin: auto;
+}
+
+.first-code strong {
+    color: black;
+}
+
 .parse > p {
     word-break: break-all; 
 
@@ -121,13 +133,9 @@ code {
     border: 15px solid white;
 }
 
-.first-code h2 {
-    background-color: blue;
-    color: white;
-    font-family: monospace;
+.indent {
+    margin-left: 2em;
 }
-
-
 
 .transformation {
             width: 60%;
@@ -140,9 +148,21 @@ code {
             margin-top: 3em;
             margin-left: auto;
             margin-right: auto;
-            background-color: rgba(3, 134, 241, 0.45);
+            background-color: rgba(237, 241, 3, 0.123);
             color: rgb(41, 40, 40);
+            box-shadow: 6px 6px 8px 5px rgba(0, 0, 0, 0.13);
         }
+
+.transformation h1 {
+    text-shadow: 3px 3px 3px rgba(252, 250, 250, 0.329);
+}
+
+.transformation h2 {
+    text-align: start;
+    margin: auto;
+    color: rgb(1, 43, 121);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.322);
+}
 
 .morecode {
             width: 60%;

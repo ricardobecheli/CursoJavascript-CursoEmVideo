@@ -75,75 +75,132 @@
   
     <div class="first-code">
 
-    <h1>In the first JS coding lessons we have made this:</h1>
+    <h1>Back in the first JS coding lessons:</h1>
     
-        <p>All the frame content is in the code.</p>
+        <p>All this frame's content was taken from the  JS code.</p>
+
+        <h2>Where is the JS code?</h2>
+
+            <p>The JS code can be placed:</p>
+                
+                <ul>
+                    <li>In the head area, inside a &lt;script&gt; tag;(less usual);</li>
+                    <li>Directly at the end of the HTML &lt;body&gt;, inside a &lt;script&gt; tag;</li>
+                    <li>Linked to a separate file at the end of the HTML &lt;body&gt;, inside a &lt;script&gt; tag; (see the figure below)</li>
+                </ul>
+            
+            <img src="images/js-link.png" width="90%" alt="JS file link.">
+
+        <h2>Why comments? </h2>
     
-        <p>Double slash // means "ONE LINE COMMENT".</p>
-        <p>And /* to open and */ to close mean "SEVERAL LINES COMMENT".</p>
-    
-        <p>
-            // window.alert("Click OK to continue"). Tiramos esse comando de uso. Foi só pra aula 1.
-        </p>
-        <p>
-            // window.confirm("How do you like JS?"). Tiramos esse comando de uso. Foi só pra aula 1.
-        </p>
-    
-        <p style="color: darkgreen;"><code>var nome = window.prompt("What's your name?")</code></p>
-        <p style="color: darkgreen;"><code>window.alert("It's a great pleasure to meet you, " + nome + "!")</code></p>
-            <p>// The + (plus) signal produces concatenation.</p>
-    
-          <p> //  Double slash is for a one line comment in JS. We are IN JS as everything between the "script" opening and closing tags is JS.</p>
-    
-           <p>/* <br>
-                Repeating: Slash + asterisk is to OPEN a comment of more than one line in JS. <br>
-    
-                Asterisk + slash is to close the multiple line comment. <br>
-    
-                Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason. <br>
-            */
+            <p>Comments are useful for:</p>
+
+            <ul>
+                <li>Helping people (including you) to understand why something was done in the code;</li>
+                <li>Testing the code, by making that snippet "on - off" *</li>
+            </ul>
+
+            <p>
+                * Yes, because when you "comment", that snippet stops running. It stops being part of the valid code.
             </p>
-    
-            <div class="parse">
-                <p style="color: darkgreen;"><code>var n1 = Number.parseInt(window.prompt("Digite um número: "))</code>  // SEE COMMENT BELOW</p>
-                <p style="color: darkgreen;"><code>var n2 = Number.parseInt(window.prompt("Digite outro número: "))</code></p>
-                <p style="color: darkgreen;"><code>var s = n1 + n2</code></p>
-                <p style="color: darkgreen;"><code>window.alert("A soma dos valores é " + s)</code></p>
-            </div>
-    
-            <p>/* Must put:</p>
-    
+
+            <p>Double slash <strong>//</strong> means "ONE LINE COMMENT" in any Javascript code. </p>
+
+            <p>
+                This here is a transcript from the JavaScript code wherever it is, be it in the end of the HTML "body" or in the resperctive  separate ".js" file. Just to show you how it works.
+            </p>
+
+            <p>And <strong>/*</strong> to open and <strong>*/</strong> to close mean "SEVERAL LINES COMMENT" (just like in CSS).</p>
+
+            <p>
+                Comments are useful to explain parts of the code for either yourself in the future or some other person that has to check the code for any reason. <br>
+            </p>
+        
+            <p>
+                // window.alert("Click OK to continue"). <strong>I have taken this command out of use (BY USING COMMENT). Only lesson 1 used it and it was tyring to face that every page refresh</strong>.
+            </p>
+            
+            <p>
+                // window.confirm("How do you like JS?"). <strong>I have taken this command out of use (BY USING COMMENT). Only lesson 1 used it and it was tyring to face that every page refresh</strong>.
+            </p>
+
+    <h2>The same goes to the below "one line comments":</h2>
+        
+            <section class="indent">
+
+                <p style="color: darkgreen;">
+                    <code>var nome = window.prompt("What's your name?")</code>
+                </p>
+
+                <p style="color: darkgreen;">
+                    <code>window.alert("It's a great pleasure to meet you, " + nome + "!")</code>
+                </p>
+
+                <p>// The + (plus) signal produces concatenation.</p>
+                
+                <div class="parse">
+                    <p style="color: darkgreen;"><code>var n1 = Number.parseInt(window.prompt("Digite um número: "))</code>  // 
+                        <br>
+                        <strong>See "several lines comment" below</strong></p>
+                    <p style="color: darkgreen;"><code>var n2 = Number.parseInt(window.prompt("Digite outro número: "))</code></p>
+                    <p style="color: darkgreen;"><code>var s = n1 + n2</code></p>
+                    <p style="color: darkgreen;"><code>window.alert("A soma dos valores é " + s)</code></p>
+                </div>
+
+            </section>
+
+    <h2>Several lines comment</h2>
+
+        <p><strong>/*</strong> Must put:</p>
+
+        <section class="indent">
             <p>Number.parseInt</p>
-    
             <p>For JS stop concatenating the 2 numbers instead of summing them.
                     (i.e. returning 42 instead of 6 for "4 + 2" is concatenating)</p>
-    
             <p>This command returns an integer number (= no decimals)</p>
-    
             <p>Or...</p>
-    
             <p>For floating point (floating point = real number = a number with decimals) it should be:</p>
-    
             <p>Number.parseFloat.</p>
-    
             <p>Note the capital letters because they make a difference!</p>
-    
             <p>EVEN BETTER:</p>
-    
             <p>You can also force JS stop concatenating instead of summing by the following command:</p>
-    
             <p style="color: darkgreen;"><code>var n1 = Number(window... etc... as coded above - or whatever you want to be contained in your variable and fits here)</code></p>
-    
             <p>And JavaScript will decide if "Number" is an integer or a real number.</p>
-    
-            <h2>Grip the code!</h2>
-    
-            <figure>
-                <img src="images/grip-the-code.jpg" width="50%" alt="code locked bike">
-            </figure>
+            
+        </section>
+
+        <strong>*/</strong>
 
 
-    
+        <h2>Grip the code!</h2>
+
+        <figure>
+            <img src="images/grip-the-code.jpg" width="50%" alt="code locked bike">
+        </figure>
+
+    <h2>Variables</h2>
+        
+        <p>So it's widely sayd that "variables are containers for storing values" (w3schools).</p>
+
+        <p>Therefore</p>
+
+    <h3>Aren't variables tiny databanks?</h3>
+
+        
+        <p>To be or not? The question is that.</p>
+
+        <p>And the informal answer given by myself (at least at this point of study) is <strong>YES!</strong></p>
+
+        <p>Think about that when you go into real data bases, banks or lakes.</p>
+
+        <p>
+            The data is calmly laying there.
+        </p>
+
+        <p>
+            Until one fine day when you invoke them and they rise from the tomb...
+        </p>
+
     </div>
 
 
@@ -183,21 +240,10 @@
         <p>Template strings will be used in this course to interpolate. JavaScript string interpolation is the process of embedding an expression into part of a string. Plain text and JS variables together in the same paragraph, for instance.</p>
         
         <a href="https://www.w3schools.com/js/js_string_templates.asp" target="blank" rel="noopener noreferrer">Please ckeck w3schools for details</a>
-        
-        <br>
-        <h1>Variables.</h1>
-        <p>So it's widely sayd that "variables are containers for storing values" (w3schools).</p>
-        <p>Therefore</p>
-        <h2>Aren't variables tiny databanks?</h2>
-        
-        <p>To be or not? The question is that.</p>
-        <p>And the informal answer given by myself (at least at this point of study) is <strong>YES!</strong></p>
-        <p>Think about that when you go into real data bases, banks or lakes. The data is calmly laying there. Until one fine day when you invoke them and they rise from the tomb.</p>
+
     </section>
 
-
-
-    
+   
     <article class="morecode">
         <h1>More code 1</h1>
         <h2>Speeding Ticket System</h2>
@@ -253,6 +299,16 @@
 
         <h1>Do the lessons again</h1>
 
+            <p>
+                Without the "alerts" because they're a pain in the neck. Once is enough.
+            </p>
+
+            <p>
+                ...
+            </p>
+
+
+
     </section>
 
 
@@ -265,8 +321,6 @@
 <footer>
     <h2>Thanks for visiting this page!</h2>
 </footer>
-
-
 
 <script src="script.js"></script>    
 </body>
