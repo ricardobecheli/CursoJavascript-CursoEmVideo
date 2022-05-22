@@ -47,12 +47,6 @@ h2 {
     color: rgb(130, 18, 235);
 }
 
-.first-code h2 {
-    background-color: blue;
-    color: white;
-    font-family: monospace;
-    margin: 1em auto;
-}
 
 p {
     margin-left: 50px;
@@ -115,6 +109,14 @@ code {
             margin-right: auto;
             background-color: rgba(3, 134, 241, 0.45);
             color: rgb(255, 255, 255);
+}
+
+.first-code h2 {
+    background-color: blue;
+    color: rgb(224, 207, 207);
+    border: 1px solid rgba(57, 215, 255, 0.623);
+    font-family: monospace;
+    margin: 1em auto;
 }
 
 .first-code li {
@@ -228,11 +230,18 @@ code {
 
 footer {
     margin: 3px 0px 0em 0px;
-    padding: 3%;
+    padding: 1%;
     background-color: rgba(255, 0, 43, 0.315);
     box-shadow: 0px -8px 17px 5px rgba(0, 0, 0, 0.247);
     text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: azure;
+}
 
 
